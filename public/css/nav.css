@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  background-color: rgb(22, 90, 102);
+}
+ul {
+  width: 40vw;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+ul > li > a {
+  text-decoration-line: none;
+  color: rgb(189, 189, 235);
+  font-size: 20px;
+  padding: 4px 20px;
+}
+a:hover {
+  background-color: gold;
+  color: #000;
+}
+nav h2 {
+  color: #fff;
+}
+nav h2:hover {
+  background-color: gold;
+  color: #000;
+}

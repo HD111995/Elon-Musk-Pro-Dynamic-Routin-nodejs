@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(36, 34, 34);
+}
+main {
+  padding-top: 5vh;
+}
+main > div {
+  background-color: #000;
+  width: 80vw;
+  padding: 40px;
+  margin: 0 auto;
+  color: rgb(180, 179, 179);
+  border-radius: 20px;
+}
+main div h1 {
+  margin-bottom: 5vh;
+  border-bottom: 2px groove #fff;
+  font-size: 45px;
+}
+main div p {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 40px;
+  word-spacing: 5px;
+}
